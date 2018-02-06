@@ -1,0 +1,85 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 500;
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 16vh 5px 5px 5px;
+   font-size: 1.3em;
+   color: #A69CA2;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 120;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #A69CA2;
+}
+
+header {
+  text-align:center;
+}
+
+header img {
+  display: block;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* top | right | bottom | left */
+  padding: 10px 0px 10px 0px;
+}
+
+section a {
+  margin: 0 20px 24px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #A69CA2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all 400ms;
+}
+
+section a:hover,
+section a:focus {
+  outline: 0;
+  background-color: #A69CA2;
+  color: white;
+  border-radius: 20%;
+  border-color: white;
+}
+
+a[href*="github.com"]:hover,
+a[href*="github.com"]:focus {
+  background-color: black;
+  color: white;
+}
+
+a[href*="linkedin.com"]:hover,
+a[href*="linkedin.com"]:focus {
+  background-color: #007bb5;
+  color: white;
+}
+
+a[href*="medium.com"]:hover,
+a[href*="medium.com"]:focus {
+  background-color: #03a87c;
+  color: white;
+}
+
+a[href*="flickr.com"]:hover,
+a[href*="flickr.com"]:focus {
+  background-color: #ff0080;
+  color: white;
+}
